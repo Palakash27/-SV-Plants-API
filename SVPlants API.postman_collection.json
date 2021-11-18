@@ -11,15 +11,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://192.168.1.92:5032/api/plants",
-					"protocol": "http",
+					"raw": "https://plants-api20211117232608.azurewebsites.net/api/plants",
+					"protocol": "https",
 					"host": [
-						"192",
-						"168",
-						"1",
-						"92"
+						"plants-api20211117232608",
+						"azurewebsites",
+						"net"
 					],
-					"port": "5032",
 					"path": [
 						"api",
 						"plants"
@@ -43,15 +41,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.1.92:5032/api/plants",
-					"protocol": "http",
+					"raw": "https://plants-api20211117232608.azurewebsites.net/api/plants",
+					"protocol": "https",
 					"host": [
-						"192",
-						"168",
-						"1",
-						"92"
+						"plants-api20211117232608",
+						"azurewebsites",
+						"net"
 					],
-					"port": "5032",
 					"path": [
 						"api",
 						"plants"
@@ -66,15 +62,13 @@
 				"method": "PUT",
 				"header": [],
 				"url": {
-					"raw": "http://192.168.1.92:5032/api/plants/3/start-watering",
-					"protocol": "http",
+					"raw": "https://plants-api20211117232608.azurewebsites.net/api/plants/3/start-watering",
+					"protocol": "https",
 					"host": [
-						"192",
-						"168",
-						"1",
-						"92"
+						"plants-api20211117232608",
+						"azurewebsites",
+						"net"
 					],
-					"port": "5032",
 					"path": [
 						"api",
 						"plants",
@@ -91,15 +85,13 @@
 				"method": "PUT",
 				"header": [],
 				"url": {
-					"raw": "http://192.168.1.92:5032/api/plants/3/stop-watering",
-					"protocol": "http",
+					"raw": "https://plants-api20211117232608.azurewebsites.net/api/plants/3/stop-watering",
+					"protocol": "https",
 					"host": [
-						"192",
-						"168",
-						"1",
-						"92"
+						"plants-api20211117232608",
+						"azurewebsites",
+						"net"
 					],
-					"port": "5032",
 					"path": [
 						"api",
 						"plants",
