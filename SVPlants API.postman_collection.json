@@ -1,0 +1,114 @@
+{
+	"info": {
+		"_postman_id": "e187ac7a-a873-441b-afbc-031b5f06cde9",
+		"name": "SVPlants API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get all plants",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.1.92:5032/api/plants",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"92"
+					],
+					"port": "5032",
+					"path": [
+						"api",
+						"plants"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add 5 plants",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"id\": 1,\r\n        \"name\": \"Lily\",\r\n        \"lastWateringEnd\": \"2021-11-17T17:29:05.654Z\"\r\n    },\r\n    {\r\n        \"id\": 2,\r\n        \"name\": \"Rose\",\r\n        \"lastWateringEnd\": \"2021-11-17T21:29:05.654Z\"\r\n    },\r\n    {\r\n        \"id\": 3,\r\n        \"name\": \"Lotus\",\r\n        \"lastWateringEnd\": \"2021-11-17T21:29:05.654Z\"\r\n    },\r\n    {\r\n        \"id\": 4,\r\n        \"name\": \"Aster\",\r\n        \"lastWateringEnd\": \"2021-11-17T21:29:05.654Z\"\r\n    },\r\n    {\r\n        \"id\": 5,\r\n        \"name\": \"Violet\",\r\n        \"lastWateringEnd\": \"2021-11-17T21:29:05.654Z\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.1.92:5032/api/plants",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"92"
+					],
+					"port": "5032",
+					"path": [
+						"api",
+						"plants"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Start Watering of a plant",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.1.92:5032/api/plants/3/start-watering",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"92"
+					],
+					"port": "5032",
+					"path": [
+						"api",
+						"plants",
+						"3",
+						"start-watering"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Stop Watering of a plant",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.1.92:5032/api/plants/3/stop-watering",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"92"
+					],
+					"port": "5032",
+					"path": [
+						"api",
+						"plants",
+						"3",
+						"stop-watering"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
