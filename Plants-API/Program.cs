@@ -8,11 +8,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddCors(options =>
 {
     options.AddPolicy(name: MyAllowSpecificOrigins, 
-                    builder =>
-                    {
-                        builder.AllowAnyOrigin().AllowAnyMethod();
-                        //builder.WithOrigins("http://localhost:3000").WithMethods("PUT","GET");
-                    });
+        builder =>
+        {
+            builder.AllowAnyOrigin().AllowAnyMethod();
+        });
 });
 builder.Services.AddControllers();
 builder.Services.AddDbContext<PlantContext>(opt =>
